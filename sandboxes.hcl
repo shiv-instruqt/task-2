@@ -1,4 +1,12 @@
+
+resource "network" "network" {
+  subnet = "10.100.100.0/24"
+}
+
 resource "container" "container-1" {
+  network {
+    id = resource.network.network.meta.id
+  }
   image {
     name = "ubuntu:22.04"
   }

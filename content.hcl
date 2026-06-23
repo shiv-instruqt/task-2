@@ -3,7 +3,7 @@ resource "page" "instructions" {
   file  = "instructions/__default/instructions.md"
 
   activities = {
-    flask_running = resource.task.flask_running
+    "flask_running" = resource.task.flask_running
   }
 }
 
