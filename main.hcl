@@ -22,14 +22,7 @@ resource "lab" "main" {
       show_stop = true
     }
   }
-
   content {
-    activities {
-      task "flask_running" {
-        reference = resource.task.flask_running
-      }
-    }
-
     chapter "__default" {
       title = "Default"
       page "instructions" {
