@@ -993,45 +993,6 @@ Expected output:
 
 ---
 
-## Step 7: Verify the Application
-
-Open a new terminal and run:
-
-```bash
-curl http://localhost:5000
-```
-
-To verify the API endpoint:
-
-```bash
-curl http://localhost:5000/api/server-info
-```
-
-Expected output:
-
-```json
-{
-  "private_ip": "x.x.x.x",
-  "public_ip": "x.x.x.x"
-}
-```
-
----
-
-## Step 8: Access the Application
-
-Open the **Application** tab and navigate to:
-
-```text
-http://localhost:5000
-```
-
-You should see the **Year Converter** application running successfully.
-
----
-
----
-
 ## ✅ Validate Your Work
 
 Once the Flask app is running, click the **Check** button below to verify everything is working correctly.
