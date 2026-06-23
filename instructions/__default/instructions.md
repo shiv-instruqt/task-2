@@ -1030,6 +1030,16 @@ You should see the **Year Converter** application running successfully.
 
 ---
 
+---
+
+## ✅ Validate Your Work
+
+Once the Flask app is running, click the **Check** button below to verify everything is working correctly.
+
+<instruqt-task id="flask_running"></instruqt-task>
+
+---
+
 ## Next Step
 
 The Flask application is now running directly on port **5000** using a Python virtual environment.
