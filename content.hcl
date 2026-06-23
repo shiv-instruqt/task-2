@@ -1,6 +1,10 @@
 resource "page" "instructions" {
   title = "Instructions"
   file  = "instructions/__default/instructions.md"
+
+  activities = {
+    flask_running = resource.task.flask_running
+  }
 }
 
 resource "task" "flask_running" {
